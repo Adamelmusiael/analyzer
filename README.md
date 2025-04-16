@@ -53,8 +53,6 @@ I've created a Jupyter Notebook that:
 * Extracts the described features
 * Checks if transcript is good for preprocessing
 * Classifies proficiency levels
-Final result:  
-![image](https://github.com/user-attachments/assets/3680961e-0925-42d9-b51a-1a6d05ca25d4)
 
 # Final Note 
 Thank you for considering my application. I enjoyed diving into this NLP-focused task and showing my initiative to go beyond just answering — I built a working prototype.
