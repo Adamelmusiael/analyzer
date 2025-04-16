@@ -8,7 +8,7 @@ Feel free to explore the logic, code and implementation. (Notebooks->Analyzer.py
 
 ## Questions & Answers
 ### 1. How to extract information from voice call transcriptions?
-Voice call transcriptions are unstructured data, and to extract structured information from them, we need a solid Natural Language Processing (NLP) pipeline. Here's a breakdown of methods, tools, and approaches I recommend and used in my project:
+Voice call transcriptions are unstructured data, and to extract structured information from them, we need a solid Natural Language Processing (NLP) pipeline. Here's a breakdown of methods, tools, and approaches I recommend and used in my project:  
 🔧 Preprocessing Tools & Techniques:
 
 | Category       | Methods & Technologies      | Purpose                                  |
@@ -21,7 +21,7 @@ Voice call transcriptions are unstructured data, and to extract structured infor
 | Grammar Check  | language_tool_python        | Detect grammar errors                    |
 
 These methods help create a structured feature set from unstructured transcripts — essential for analysis, scoring, and automation.
-Here is how I have implemented this:
+Here is how I have implemented this:  
 ![image](https://github.com/user-attachments/assets/9e193e81-a643-4a10-b924-2d3578e2b2ac)
 
 ### 2. How to define if a voice call transcription is "good" for further processing?
@@ -44,7 +44,7 @@ Features to measure:
 | Filler Word Ratio  | Fluency, hesitation levels        | 
 | Grammar Check  | 	Overall language correctness        | 
 
-My implementation:
+My implementation:  
 ![image](https://github.com/user-attachments/assets/5b34018c-2a09-4425-9d53-18b007157a9c)
 
 ## Code & Notebook
@@ -53,13 +53,13 @@ I've created a Jupyter Notebook that:
 * Extracts the described features
 * Checks if transcript is good for preprocessing
 * Classifies proficiency levels
-Final result:
+Final result:  
 ![image](https://github.com/user-attachments/assets/3680961e-0925-42d9-b51a-1a6d05ca25d4)
 
 # Final Note 
 Thank you for considering my application. I enjoyed diving into this NLP-focused task and showing my initiative to go beyond just answering — I built a working prototype.
 
-If you're looking for someone who blends analytical thinking, practical coding skills, and creativity, I’d love the chance to work together.
+If you're looking for someone who blends analytical thinking, practical coding skills, and creativity, I’d love the chance to work together.  
 
 ![image](https://github.com/user-attachments/assets/e20a2d13-9b46-404e-92f8-7ca94afd2120)
 
