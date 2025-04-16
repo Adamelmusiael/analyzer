@@ -31,7 +31,7 @@ A “good” transcription is one that meets minimum quality thresholds across k
 And this is how we could represent the problem as decision tree visualization. (diagram)
   ![image](https://github.com/user-attachments/assets/d02baba8-bd87-4537-859e-5cd16b7603d1)
 
-### How to measure English proficiency level from transcripts?
+### 3. How to measure English proficiency level from transcripts?
 To estimate English proficiency, I extract linguistic complexity, vocabulary richness, and grammar accuracy from transcriptions.  
 Features to measure:  
 
