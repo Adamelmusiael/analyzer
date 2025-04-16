@@ -22,14 +22,16 @@ Voice call transcriptions are unstructured data, and to extract structured infor
 
 These methods help create a structured feature set from unstructured transcripts — essential for analysis, scoring, and automation.
 Here is how I have implemented this:  
-![image](https://github.com/user-attachments/assets/9e193e81-a643-4a10-b924-2d3578e2b2ac)
+![analyzer](extract_info.png)
+
 
 ### 2. How to define if a voice call transcription is "good" for further processing?
 A “good” transcription is one that meets minimum quality thresholds across key features. All thresholds should be fitted for a different case, adapted and checked. Here's how I assess that:
-![image](https://github.com/user-attachments/assets/565b1f18-c870-4d82-9312-890bf8ee4178)
+![analyzer](transcription_good.png)
 
 And this is how we could represent the problem as decision tree visualization. (diagram)
-  ![image](https://github.com/user-attachments/assets/d02baba8-bd87-4537-859e-5cd16b7603d1)
+![analyzer](diag.png)  
+
 
 ### 3. How to measure English proficiency level from transcripts?
 To estimate English proficiency, I extract linguistic complexity, vocabulary richness, and grammar accuracy from transcriptions.  
@@ -45,20 +47,19 @@ Features to measure:
 | Grammar Check  | 	Overall language correctness        | 
 
 My implementation:  
-![image](https://github.com/user-attachments/assets/5b34018c-2a09-4425-9d53-18b007157a9c)
+![analyzer](estimate.png)
 
 ## Code & Notebook
 I've created a Jupyter Notebook that:
 * Loads and cleans transcripts
 * Extracts the described features
 * Checks if transcript is good for preprocessing
-* Classifies proficiency levels
-
+* Classifies proficiency levels  
+Final result:
+![analyzer](final.png)
 # Final Note 
 Thank you for considering my application. I enjoyed diving into this NLP-focused task and showing my initiative to go beyond just answering — I built a working prototype.
 
 If you're looking for someone who blends analytical thinking, practical coding skills, and creativity, I’d love the chance to work together.  
-
-![image](https://github.com/user-attachments/assets/e20a2d13-9b46-404e-92f8-7ca94afd2120)
 
 Thank you for concideration of my employment. Hope you enjoyed my answer :)
